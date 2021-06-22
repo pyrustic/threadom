@@ -1,0 +1,3 @@
+recursive-include threadom *
+global-exclude *.py[cod]
+include VERSION
