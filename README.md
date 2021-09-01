@@ -1,3 +1,11 @@
+<!-- Image -->
+<div align="center">
+    <img src="https://raw.githubusercontent.com/pyrustic/misc/master/media/jupitest.gif" alt="Figure" width="650">
+    <p align="center">
+    <a href="https://github.com/pyrustic/jupitest">Jupitest</a> uses Threadom to perform smooth real-time test reports
+    </p>
+</div>
+
 # Threadom
 `Threadom` is a `Python` library to perform Tkinter-compatible multithreading. It's part of the [Pyrustic Open Ecosystem](https://pyrustic.github.io).
 
