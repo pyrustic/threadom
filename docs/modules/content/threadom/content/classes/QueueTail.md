@@ -19,7 +19,7 @@ Use this class as an indicator of the tail of a queue
 object
 
 ## Class Attributes
-
+No class attributes.
 
 ## Class Properties
 

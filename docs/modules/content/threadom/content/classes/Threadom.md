@@ -19,13 +19,13 @@ No description.
 object
 
 ## Class Attributes
-
+No class attributes.
 
 ## Class Properties
 
 
 # All Methods
-[\_\_init\_\_](#__init__) &nbsp;&nbsp; [\_consume](#_consume) &nbsp;&nbsp; [\_dispatch\_exception](#_dispatch_exception) &nbsp;&nbsp; [\_dispatch\_result](#_dispatch_result) &nbsp;&nbsp; [\_is\_valid\_qid](#_is_valid_qid) &nbsp;&nbsp; [\_loop](#_loop) &nbsp;&nbsp; [\_run](#_run) &nbsp;&nbsp; [\_run\_consumer](#_run_consumer) &nbsp;&nbsp; [\_run\_next\_synced\_target](#_run_next_synced_target) &nbsp;&nbsp; [\_runner](#_runner) &nbsp;&nbsp; [\_short\_loop](#_short_loop) &nbsp;&nbsp; [consume](#consume) &nbsp;&nbsp; [info](#info) &nbsp;&nbsp; [pause](#pause) &nbsp;&nbsp; [q](#q) &nbsp;&nbsp; [resume](#resume) &nbsp;&nbsp; [run](#run) &nbsp;&nbsp; [stop](#stop)
+[\_\_init\_\_](#__init__) &nbsp;&nbsp; [consume](#consume) &nbsp;&nbsp; [info](#info) &nbsp;&nbsp; [pause](#pause) &nbsp;&nbsp; [q](#q) &nbsp;&nbsp; [resume](#resume) &nbsp;&nbsp; [run](#run) &nbsp;&nbsp; [stop](#stop) &nbsp;&nbsp; [\_consume](#_consume) &nbsp;&nbsp; [\_dispatch\_exception](#_dispatch_exception) &nbsp;&nbsp; [\_dispatch\_result](#_dispatch_result) &nbsp;&nbsp; [\_is\_valid\_qid](#_is_valid_qid) &nbsp;&nbsp; [\_loop](#_loop) &nbsp;&nbsp; [\_run](#_run) &nbsp;&nbsp; [\_run\_consumer](#_run_consumer) &nbsp;&nbsp; [\_run\_next\_synced\_target](#_run_next_synced_target) &nbsp;&nbsp; [\_runner](#_runner) &nbsp;&nbsp; [\_short\_loop](#_short_loop)
 
 ## \_\_init\_\_
 - tk: a tk.Tk instance or any tkinter object
@@ -39,167 +39,7 @@ object
 
 
 
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_consume
-None
-
-
-
-**Signature:** (self, queue, consumer, unpack\_result, exception\_handler, latency)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_dispatch\_exception
-None
-
-
-
-**Signature:** (self, exception, exception\_handler)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_dispatch\_result
-None
-
-
-
-**Signature:** (self, result, consumer, unpack\_result, exception\_handler)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_is\_valid\_qid
-None
-
-
-
-**Signature:** (self, qid)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_loop
-None
-
-
-
-**Signature:** (self, qid)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_run
-None
-
-
-
-**Signature:** (self, target, target\_args, target\_kwargs, consumer, sync, daemon, unpack\_result, upstream\_exception\_handler, downstream\_exception\_handler)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_run\_consumer
-None
-
-
-
-**Signature:** (self, consumer, result, unpack\_result)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_run\_next\_synced\_target
-None
-
-
-
-**Signature:** (self)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_runner
-None
-
-
-
-**Signature:** (self, queue, target, target\_args, target\_kwargs, exception\_handler)
-
-
-
-
-
-**Return Value:** None.
-
-[Back to Top](#module-overview)
-
-
-## \_short\_loop
-None
-
-
-
-**Signature:** (self, queue, consumer, unpack\_result, upstream\_exception\_handler, downstream\_exception\_handler)
-
-
-
-
-
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -226,7 +66,7 @@ Returns the 'qid'. You will need this 'qid' to stop, pause, resume the loop or t
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -245,7 +85,7 @@ Returns a dict:
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -262,7 +102,7 @@ Put 0 to pause all processes
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -280,7 +120,7 @@ Usage:
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -297,7 +137,7 @@ Put 0 to resume all processes
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -323,7 +163,7 @@ Runs a target in background. Return False if the target is in WAITING state (syn
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -340,7 +180,167 @@ Set 0 to stop them all.
 
 
 
-**Return Value:** None.
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_consume
+No description
+
+
+
+**Signature:** (self, queue, consumer, unpack\_result, exception\_handler, latency)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_dispatch\_exception
+No description
+
+
+
+**Signature:** (self, exception, exception\_handler)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_dispatch\_result
+No description
+
+
+
+**Signature:** (self, result, consumer, unpack\_result, exception\_handler)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_is\_valid\_qid
+No description
+
+
+
+**Signature:** (self, qid)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_loop
+No description
+
+
+
+**Signature:** (self, qid)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_run
+No description
+
+
+
+**Signature:** (self, target, target\_args, target\_kwargs, consumer, sync, daemon, unpack\_result, upstream\_exception\_handler, downstream\_exception\_handler)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_run\_consumer
+No description
+
+
+
+**Signature:** (self, consumer, result, unpack\_result)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_run\_next\_synced\_target
+No description
+
+
+
+**Signature:** (self)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_runner
+No description
+
+
+
+**Signature:** (self, queue, target, target\_args, target\_kwargs, exception\_handler)
+
+
+
+
+
+**Return Value:** None
+
+[Back to Top](#module-overview)
+
+
+## \_short\_loop
+No description
+
+
+
+**Signature:** (self, queue, consumer, unpack\_result, upstream\_exception\_handler, downstream\_exception\_handler)
+
+
+
+
+
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
